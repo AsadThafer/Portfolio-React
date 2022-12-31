@@ -1,5 +1,3 @@
-// import Item1 from '../images/Products.png';
-// import Item2 from '../images/bitcoin.png';
 import './Item.css';
 
 function Item({ name, image, link, description, language } ) {

@@ -2,6 +2,7 @@ import './App.css';
 import About from './components/About';
 import Navigation from './components/Navigation';
 import Projects from './components/MyProjects/Projects';
+import Educational from './components/MyEducation/Educational';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navigation />
       <About />
       <Projects />
+      <Educational />
     </div>
   );
 }

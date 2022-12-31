@@ -10,7 +10,7 @@ function Item({ name, image, link, description, language } ) {
             <figcaption className="accessibility">{name} image</figcaption>
           </figure>
           <h2>
-            <a href={link} target="_blank">
+            <a href={link} rel="noreferrer" target="_blank" >
               {name}
             </a>
           </h2>

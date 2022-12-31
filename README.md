@@ -1,5 +1,6 @@
 # React Portfolio
 This project showcases my skills in React by Rewriting my portfolio in React. while thinking in React and breaking down my code into reusable components .
+
 this Task is a part of my internship at <a href="https://www.foothillsolutions.com">Foothill Technology Solutions, LLC.</a>
 
 ## Technologies Used

@@ -1,0 +1,50 @@
+  .item {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 400px;
+    margin: 10px 10px;
+    background-color: #353b48;
+  }
+   
+  .programming_language{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    bottom: 0px;
+    margin-bottom: 15px;
+  }
+
+  a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+  }
+  
+  a:visited {
+    color: white;
+  }
+  a:hover,
+  a:focus {
+    color: #8c7ae6;
+  }
+  a:active {
+    color: red;
+  }
+  h1,
+h2 {
+  text-shadow: 2px 2px rgb(112, 2, 2);
+}
+
+.accessibility {
+    position: absolute;
+    left: -10000px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .items h2 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1.2rem;
+    }
+}

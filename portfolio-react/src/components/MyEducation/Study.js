@@ -1,11 +1,12 @@
 import './Study.css';
+import Accessibility from '../Accessibility';
 
 function Study({ name, image, title, degree, GPA,Period } ) {
     return (
         <div className="study">
             <figure>
                 <img src={image} alt = {name} />
-                <figcaption className="accessibility">{name} image</figcaption>
+                <Accessibility name={name} />
             </figure>
             <h2>
                 {title}

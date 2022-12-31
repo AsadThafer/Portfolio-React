@@ -35,10 +35,6 @@
     margin: 10px 0px;
   }
   
-  .accessibility {
-    position: absolute;
-    left: -10000px;
-  }
   
   @media screen and (max-width: 481px) {
     h1 {

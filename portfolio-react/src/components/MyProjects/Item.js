@@ -1,11 +1,12 @@
 import './Item.css';
+import Accessibility from '../Accessibility';
 
 function Item({ name, image, link, description, language } ) {
     return(
         <div className="item">
           <figure>
             <img src={image} alt={name} />
-            <figcaption className="accessibility">{name} image</figcaption>
+            <Accessibility name={name} />
           </figure>
           <h2>
             <a href={link} rel="noreferrer" target="_blank" >

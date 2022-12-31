@@ -35,10 +35,6 @@ h2 {
   text-shadow: 2px 2px rgb(112, 2, 2);
 }
 
-.accessibility {
-    position: absolute;
-    left: -10000px;
-  }
   
   @media screen and (max-width: 768px) {
     .items h2 {

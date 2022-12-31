@@ -34,11 +34,7 @@
     padding-top: 0.5rem 0rem;
     margin-top: 10px;
   }
-.accessibility {
-    position: absolute;
-    left: -10000px;
-  }
-
+  
   @media screen and (max-width: 768px) {
     .studyinfo div h2,
     .studyinfo div ul li {

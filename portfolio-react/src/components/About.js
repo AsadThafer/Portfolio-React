@@ -1,4 +1,5 @@
 import './About.css';
+import Accessibility from './Accessibility';
 const myImage = require('../images/Asad_Asad.jpg');
 function About() {
     return (
@@ -6,7 +7,7 @@ function About() {
 <section id="about" className="about">
       <figure>
         <img src = {myImage} alt="Asad Thafer Asad"></img>
-        <figcaption className="accessibility">Asad Thafer Asad</figcaption>
+        <Accessibility name={'Asad Thafer Asad'} />
       </figure>
       <h1>Asad Thafer Asad</h1>
       <p>Web Developer - ECU Tuner</p>

@@ -11,9 +11,9 @@ function Study({ name, image, title, degree, GPA,Period } ) {
                 {title}
             </h2>
             <ul>
-                <li> {degree} </li>
-                <li> {GPA} </li>
-                <li> {Period} </li>
+                <li>🎓 {degree} </li>
+                <li>📜 {GPA} </li>
+                <li>📅 {Period} </li>
             </ul>
         </div>
     )};

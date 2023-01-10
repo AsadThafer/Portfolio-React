@@ -1,6 +1,6 @@
 import "./Projects.css";
 import React from "react";
-import Item from "./Item";
+import Item from "../../components/MyProjects/Item";
 import Item1Image from "../../images/Products.png";
 import Item2Image from "../../images/bitcoin.png";
 import Item3Image from "../../images/todo_list_480px.png";

@@ -1,5 +1,5 @@
 import "./Item.css";
-import Figure from "../Figure";
+import Figure from "../Figure/Figure";
 
 function Item({ name, image, link, description, language }) {
   return (

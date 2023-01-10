@@ -1,6 +1,6 @@
 .about {
   background-color: #8c7ae6;
-  background-image: url(../images/background.jpg);
+  background-image: url(../../images/background.jpg);
   padding-top: 10vh;
   display: flex;
   flex-direction: column;

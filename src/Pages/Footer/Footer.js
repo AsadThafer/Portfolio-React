@@ -1,4 +1,4 @@
-import ConnectWith from "./ConnectWith";
+import ConnectWith from "../../components/ConnectWith/ConnectWith";
 import "./Footer.css";
 
 import EmailImage from "../../images/Email_256px.png";

@@ -1,4 +1,4 @@
-import Study from "./Study";
+import Study from "../../components/MyEducation/Study";
 import "./educational.css";
 import study1Image from "../../images/university.jpg";
 import study2Image from "../../images/school.jpg";

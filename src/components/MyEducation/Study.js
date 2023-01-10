@@ -1,5 +1,5 @@
 import "./Study.css";
-import Figure from "../Figure";
+import Figure from "../Figure/Figure";
 
 function Study({ name, image, title, degree, GPA, Period }) {
   return (

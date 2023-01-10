@@ -1,6 +1,6 @@
 import "./About.css";
-import Figure from "./Figure";
-const myImage = require("../images/Asad_Asad.jpg");
+import Figure from "../../components/Figure/Figure";
+const myImage = require("../../images/Asad_Asad.jpg");
 function About() {
   return (
     <div>

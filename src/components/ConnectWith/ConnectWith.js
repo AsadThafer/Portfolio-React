@@ -1,5 +1,5 @@
 import "./ConnectWith.css";
-import Figure from "../Figure";
+import Figure from "../Figure/Figure";
 function ConnectWith({ name, image, link }) {
   return (
     <div className="icon">

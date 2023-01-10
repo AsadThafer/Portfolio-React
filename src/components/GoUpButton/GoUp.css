@@ -1,0 +1,12 @@
+.goup {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+  }
+  .goup img {
+    width: 48px;
+    height: auto;
+    background-color: #191d22;
+    border-radius: 25%;
+  }

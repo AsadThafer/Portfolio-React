@@ -29,13 +29,13 @@ function Projects() {
           language={"JavaScript & Jquery"}
         />
         <Item
-            name={"Todo List"}
-            image={Item3Image}
-            link={"https://asad-todo-list.netlify.app"}
-            description={
-                "simple todo list application written in JavaScript.It allows users to create, update status,search and delete todo list items."
-            }
-            language={"JavaScript"}
+          name={"Todo List"}
+          image={Item3Image}
+          link={"https://asad-todo-list.netlify.app"}
+          description={
+            "simple todo list application written in JavaScript.It allows users to create, update status,search and delete todo list items."
+          }
+          language={"JavaScript"}
         />
       </div>
     </section>

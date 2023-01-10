@@ -16,13 +16,13 @@ function Educational() {
           GPA={"79.1"}
           Period={"2018-Present"}
         />
-        <Study 
-            name={"Al-Fadiliyah"}
-            image={study2Image}
-            title={"Al-Fadiliyah Scientific High School"}
-            degree={"High school-scientific Tawjihi"}
-            GPA={"95.3"}
-            Period={"2017-2018"}
+        <Study
+          name={"Al-Fadiliyah"}
+          image={study2Image}
+          title={"Al-Fadiliyah Scientific High School"}
+          degree={"High school-scientific Tawjihi"}
+          GPA={"95.3"}
+          Period={"2017-2018"}
         />
       </div>
     </section>

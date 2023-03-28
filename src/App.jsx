@@ -1,10 +1,10 @@
 import "./App.css";
-import About from "./Pages/About/About";
+import About from "./Sections/About/About";
 import Navigation from "./components/NavBar/Navigation";
-import Projects from "./Pages/Projects/Projects";
-import Educational from "./Pages/Education/Educational";
+import Projects from "./Sections/Projects/Projects";
+import Educational from "./Sections/Education/Educational";
 import GoUp from "./components/GoUpButton/GoUp";
-import Footer from "./Pages/Footer/Footer";
+import Footer from "./Sections/Footer/Footer";
 function App() {
   return (
     <div className="container">

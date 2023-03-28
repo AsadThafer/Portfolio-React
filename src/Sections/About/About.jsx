@@ -5,7 +5,7 @@ function About() {
   return (
     <div>
       <section id="about" className="about">
-        <Figure image={myImage} name={"Asad Thafer Asad"} />
+        <Figure image={myImage} />
         <h1>Asad Thafer Asad</h1>
         <p>Web Developer - ECU Tuner</p>
       </section>
@@ -13,11 +13,12 @@ function About() {
       <section>
         <h2>About Me</h2>
         <p>
-          My name is Asad Asad. I am a computer systems engineer student, I will
-          graduate this semester I have a good knowledge in web development ,I
-          am also a Junior Automotive ECU tuner . this is just a simple
-          portfolio Page about me. don't expect to find too much about me in
-          here, I am still young and learning..
+          "a web frontend developer and recent graduate, highly motivated and
+          passionate about creating visually appealing and functional websites.
+          With strong technical skills in HTML, CSS, JavaScript and React, I am
+          committed to delivering top-quality web development projects. I have a
+          solid understanding of frontend technologies and I am constantly
+          updating my skills to stay ahead of industry trends."
         </p>
       </section>
     </div>

@@ -1,4 +1,5 @@
 import "./Navigation.css";
+import AsadCV from "../../data/AsadCV.pdf";
 
 function Navigation() {
   return (
@@ -20,6 +21,11 @@ function Navigation() {
             </li>
             <li>
               <a href="#contact">Contact</a>
+            </li>
+            <li>
+              <a href={AsadCV} download>
+                Resume
+              </a>
             </li>
           </ul>
         </nav>

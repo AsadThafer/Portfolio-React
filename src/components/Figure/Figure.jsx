@@ -4,7 +4,7 @@ function Figure({ image, name }) {
   return (
     <figure>
       <img src={image} alt={name} />
-      <figcaption className="accessibility">{name} </figcaption>
+      {name ? <figcaption className="accessibility">{name}</figcaption> : null}
     </figure>
   );
 }

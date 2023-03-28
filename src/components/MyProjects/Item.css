@@ -4,6 +4,8 @@
   width: 400px;
   margin: 10px 10px;
   background-color: #353b48;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .programming_language {
@@ -33,6 +35,34 @@ a:active {
 h1,
 h2 {
   text-shadow: 2px 2px rgb(112, 2, 2);
+}
+
+.source_code {
+  text-align: center;
+  width: 100%;
+  bottom: 0px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.source_code_link {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  bottom: 0px;
+  font-size: 1.5rem;
+  color: #353b48;
+}
+.source_code_link:hover {
+  color: #353b48;
+}
+.source_code_link:active {
+  color: #353b48;
+}
+
+.source_code_link:visited {
+  color: #353b48;
 }
 
 @media screen and (max-width: 768px) {
